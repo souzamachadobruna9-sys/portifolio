@@ -1,0 +1,75 @@
+#cabecalho {
+    background: #f5f6f8; color: #0a3155;
+    padding: 20px; text-align: center;
+}
+.car1 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.forme {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.card { border: 1px solid #043d4e; padding: 20px;
+       width: 280px; border-radius: 8px; display: inline-block
+}
+.card-titulo {color: #0a2f5f; font-size: 1.3em;
+}
+.telefone { color:#5293c9; font-weight: bold;
+            font-size: 1.4em;}
+img {
+  width: 100%;
+}
+button {
+    width: 600px;
+    border-radius: 100px;
+    height: 60px;
+    background-color: #77caeb;
+    cursor: pointer;
+}
+p strong {
+  color: #333;
+  font-size: 16px;
+}
+select {
+  width: 200%;
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: inline-block;
+}
+select:focus {
+  border-color: #2e9cc7;
+  outline: none;
+  box-shadow: 0 0 5px #5785b680;
+}
+#sobre {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 80px;
+  background-color: #9ec4e9;
+  border-radius: 50px;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #112461;
+  text-align: center;
+}
+#rodape {
+  background-color: #0b1a61;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+#rodape p {
+  margin: 0;
+}

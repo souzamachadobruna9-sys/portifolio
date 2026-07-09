@@ -1,0 +1,29 @@
+#cabecalho {
+   background: #f5f6f8; color: #0a3155;
+   padding: 20px; text-align: center;
+}
+.aluguel {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  width: 280px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 4px 10px #1d42741a;
+  transition: 0.3s;
+}
+.card img {
+  width: 100%;
+  height: 180px;
+}
+.descricao {
+  padding: 15px;
+  text-align: center;
+}
+.descricao p {
+  margin: 8px 0;
+  color: #444;
+  font-size: 14px;
+}
